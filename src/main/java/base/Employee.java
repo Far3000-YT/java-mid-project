@@ -1,15 +1,14 @@
 package base;
 
-public class Employee {
-    private final int NumberEmp;
-    private final String HiringDate;
-    
-    public Employee(int numberEmp, String hiringDate) {
-        NumberEmp = numberEmp;
-        HiringDate = hiringDate;
+public abstract class Employee extends Person {
+    private String numberEmp;
+    private String hiringDate;
+
+    public Employee(String ID, String name, String address, String contact, String numberEmp, String hiringDate) {
+        super(ID, name, address, contact);
+        this.numberEmp = numberEmp;
+        this.hiringDate = hiringDate;
     }
 
-    public String getRole() {
-        return "Employee [NumberEmp=" + NumberEmp + ", HiringDate=" + HiringDate + "]";
-    }
+    public abstract String getRole();
 }

@@ -1,19 +1,27 @@
 package base;
 
-public class Person {
-    private final int id;
-    private final String name;
-    private final String adress;
-    private final String mail;
+public abstract class Person {
+    private String ID;
+    private String name;
+    private String address;
+    private String contact;
 
-    public Person(int id, String name, String adress, String mail) {
-        this.id = id;
+    public Person(String ID, String name, String address, String contact) {
+        this.ID = ID;
         this.name = name;
-        this.adress = adress;
-        this.mail = mail;
+        this.address = address;
+        this.contact = contact;
     }
 
     public String getInfos() {
-        return "person [id=" + id + ", name=" + name + ", adress=" + adress + ", mail=" + mail + "]";
+        return "ID: " + ID + ", Name: " + name + ", Address: " + address + ", Contact: " + contact;
+    }
+
+    public String getID() {
+        return ID;
+    }
+
+    public String getName() {
+        return name;
     }
 }
