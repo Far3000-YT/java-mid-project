@@ -20,4 +20,8 @@ public class StaffCabin extends Employee {
     public String getRole() {
         return "Cabin Staff";
     }
+
+    public String getQualification() {
+        return qualification;
+    }
 }

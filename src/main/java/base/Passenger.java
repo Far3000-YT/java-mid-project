@@ -1,5 +1,5 @@
 package base;
- 
+
 import java.util.ArrayList;
 
 public class Passenger extends Person {

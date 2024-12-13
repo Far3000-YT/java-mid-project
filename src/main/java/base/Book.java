@@ -29,4 +29,12 @@ public class Book {
     public String getReservationNumber() {
         return reservationNumber;
     }
+
+    public String getDateReservation() {
+        return dateReservation;
+    }
+
+    public String getStatus() {
+        return status;
+    }
 }

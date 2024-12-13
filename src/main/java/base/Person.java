@@ -24,4 +24,12 @@ public abstract class Person {
     public String getName() {
         return name;
     }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public String getContact() {
+        return contact;
+    }
 }

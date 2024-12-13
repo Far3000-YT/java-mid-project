@@ -19,4 +19,16 @@ public class Aircraft {
         System.out.println("Checking availability for flight " + flightNumber);
         return true;
     }
+
+    public String getRegistration() {
+        return registration;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public int getCapacity() {
+        return capacity;
+    }
 }

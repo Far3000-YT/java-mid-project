@@ -22,4 +22,12 @@ public class AirplanePilot extends Employee {
     public String getRole() {
         return "Airplane Pilot";
     }
+
+    public String getLicense() {
+        return license;
+    }
+
+    public int getFlightHours() {
+        return flightHours;
+    }
 }

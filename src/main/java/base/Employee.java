@@ -11,4 +11,12 @@ public abstract class Employee extends Person {
     }
 
     public abstract String getRole();
+
+    public String getNumberEmp() {
+        return numberEmp;
+    }
+
+    public String getHiringDate() {
+        return hiringDate;
+    }
 }

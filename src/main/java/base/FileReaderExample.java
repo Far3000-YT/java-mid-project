@@ -54,14 +54,4 @@ public class FileReaderExample {
             System.out.println("Exception XD - " + e);
         }
     }
-
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
-
-        String filePath = "java-mid-project/src/main/resources/lyrics.txt";
-        LinkedList<String> lines = textReader(filePath);
-        System.out.println(textReader(filePath));
-        textWriter(filePath, lines);
-        System.out.println(textReader(filePath));
-    }
 }

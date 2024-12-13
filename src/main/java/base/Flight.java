@@ -47,4 +47,24 @@ public class Flight {
     public String getFlightNumber() {
         return flightNumber;
     }
+
+    public String getOrigin() {
+        return origin;
+    }
+
+    public String getDestination() {
+        return destination;
+    }
+
+    public String getDepartureTime() {
+        return departureTime;
+    }
+
+    public String getArrivalDateTime() {
+        return arrivalDateTime;
+    }
+
+    public String getStatus() {
+        return status;
+    }
 }
